@@ -1,0 +1,77 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #260F25;
+    color: #FF9130;
+}
+
+#root form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2em 0 1em;
+    font-size: 1.5em;
+    label {
+        margin-right: 6px;
+        
+    }
+
+}
+input#searchText {
+    width: 20em;
+    height: auto;
+    align-self: center;
+    font-size: 0.4em;
+    border: 1.5px solid #aaa;
+    border-radius: 4px;
+    outline: none;
+    transition: .3s;
+    margin-top: 0.625em;
+    padding: 3px;
+    color: #4b4545;
+    background-color: #d7cbcb;
+    box-sizing: border-box;
+    &:focus {
+        border-color: #F53A33;
+        box-shadow: 0 0 8px 0 #F53A33;
+    }
+}
+
+.Users-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.result {
+    border: 1.5px solid #F53A33;
+    border-radius: 5px;
+    display: flex;
+    width: 80vw;
+    margin-bottom: 5px;
+    overflow: hidden;
+    img {
+        align-self: center;
+    }
+    a {
+        font-size: 0.8em;
+        align-self: center;
+        text-decoration: none;
+        color: #FF9130;
+        margin-left: 0.5em;
+        word-wrap: break-word;
+    }
+    
+}
+
+@media(max-width: 767px) {
+    #root form {
+        font-size: 1.1em;
+    }
+    .result a {
+        font-size: 0.7em;
+    }
+}
