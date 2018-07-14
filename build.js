@@ -52,6 +52,11 @@ var App = function (_React$Component) {
         "div",
         null,
         React.createElement(
+          "h1",
+          { className: "app-title" },
+          "Find Github users"
+        ),
+        React.createElement(
           "form",
           { onSubmit: function onSubmit(event) {
               return _this3.onSubmit(event);

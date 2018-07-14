@@ -7,11 +7,16 @@ body {
   background-color: #260F25;
   color: #FF9130; }
 
+.app-title {
+  text-align: center;
+  letter-spacing: 2px;
+  margin-top: 2em; }
+
 #root form {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 2em 0 1em;
+  margin: 1.5em 0 1em;
   font-size: 1.5em; }
   #root form label {
     margin-right: 6px; }
@@ -60,6 +65,10 @@ input#searchText {
   #root form {
     font-size: 1.1em; }
   .result a {
-    font-size: 0.7em; } }
+    font-size: 0.7em; }
+  .app-title {
+    font-size: 1.4em;
+    line-height: 1.2em;
+    padding: 0 25px; } }
 
 /*# sourceMappingURL=style.css.map */
